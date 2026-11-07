@@ -25,6 +25,7 @@
    pip install -r requirements.txt
 
 2. Создание .env текстого файла с OpenRouter ключом и название модели:
+    ```bash
     API_KEY="Ваш ключ"
     LLM_MODEL="Нужная вам модель" - К примеру: deepseek/deepseek-v4.1-flash-1017
 
