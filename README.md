@@ -23,3 +23,12 @@
 1. Установите зависимости:
    ```bash
    pip install -r requirements.txt
+
+2. Создание .env текстого файла с OpenRouter ключом и название модели:
+    API_KEY="Ваш ключ"
+    LLM_MODEL="Нужная вам модель" - К примеру: deepseek/deepseek-v4.1-flash-1017
+
+3. Запуск Streamlit:
+    В консоле в главной директории проекта -
+    ```bash
+    python -m streamlit run src/app.py
